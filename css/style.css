@@ -1,3 +1,9 @@
+body {
+    
+    background-image: url(../img/bg-home.png);
+}
+
+
 .bg-image {
     background: url('../img/background.jpg');
 }
@@ -20,4 +26,3 @@
     
     max-width: 90%;
 }
-
