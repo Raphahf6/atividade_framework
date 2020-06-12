@@ -1,61 +1,104 @@
-<html>
-
-
-    <head>
-        <meta charset="UTF-8">
-        <title>GabiFlix site de filmes</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link rel="stylesheet" href="main.css">
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade de Framework - Arbyte</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Catalogo de Filmes e Series</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         
-        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="sobre.html">Sobre</a>
+            </li>
+        </div>
+    </nav>
 
-    </head>
-    <body>
-              
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id="navbar">
-            <a class="navbar-brand" href="https://raphahf6.github.io/HorrorFix/">GabiFlix</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
+    <div class="bg-image mb-5">
+        <div class="jumbotron jumbotron-fluid text-light">
+            <div class="container">
+
+                <h1 class="display-4">Página desenvolvida por Jonathan Ferreira e Raphael Meneses</h1>
+                <p class="lead">Página desenvolvida para estudo sobre arquivos compartilhados GitHub.</p>
                 
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-              </form>
             </div>
-          </nav>
+        </div>
+    </div>
+      
 
-            <div class="filmborder">
-              <ul class="list-unstyled">
-                <li class="media">
-                  <img src="images/capas/panico_4.jpeg" class="mr-3" alt="...">
-                  <div class="media-body">
-                    <h5 class="mt-0 mb-1">Assistir Panico 4 online</h5>
-                    <p> muitos anos que o assassino "Ghostface" deixou um rastro mortal pela cidade de Woodsboro. A fim de superar o trauma desses terríveis acontecimentos, Sidney Prescott escreveu um livro de auto-ajuda. Ela retorna à Woodsboro para lançar seu livro e reencontra os velhos amigos Gale Weathers e o Xerife Dewey. No entanto, a chegada de Sidney também provoca o retorno de "Ghostface", colocando Sidney e todos que ama em perigo.<br><br>
-                    Data de lançamento: 15 de abril de 2011 (Brasil)<br></p>
+    <div class="container">
+        <div class="card mb-5">
+            <div class="row">
+                <div class="col-sm">
+                    <img src="img/game-of-thrones.jpg" alt="game of thrones" class="article-images">
+                </div>
+                <div class="col-sm">
+                    <div class="container-fluid p-3">
+                        <h2 class="text-center">Game of Thrones</h2>
+                        <p>Game of Thrones é uma série de televisão norte-americana criada por David Benioff e D. B. Weiss, e baseada na série de livros A Song of Ice and Fire, de George R. R. Martin.[1] Game of Thrones é filmada no Canadá, na Croácia, na Islândia, em Malta, em Marrocos, na Espanha, na Irlanda do Norte, na Escócia e nos Estados Unidos. A primeira temporada da série estreou em 17 de abril de 2011, na HBO, nos Estados Unidos, e a oitava e última temporada estreou em 14 de abril de 2019, e terminou em 19 de maio de 2019.[2][3]
 
-                    <a href="https://r2---sn-uphcg51pa-bg0s.googlevideo.com/videoplayback?expire=1591894580&ei=1A3iXo75A4_uwATGwJR4&ip=186.220.39.126&id=o-AMXnTqXqe0-CC0-k2PtTFYFkosVDDiyWdYd6E0iwMEvp&itag=18&source=youtube&requiressl=yes&gcr=br&vprv=1&mime=video/mp4&gir=yes&clen=355331803&ratebypass=yes&dur=6644.738&lmt=1587020509937810&fvip=3&c=WEB&txp=5431432&sparams=expire,ei,ip,id,itag,source,requiressl,gcr,vprv,mime,gir,clen,ratebypass,dur,lmt&sig=AOq0QJ8wRQIhAJeewhJPDMiaTA8eLd4cxTO_npm5vxzXPRiELwQ0QjGkAiA5UEoY4Ne-afHzIN4m9nyDF7zSSCTAvmyBTR2HeLpGew==&avi=K1A%2FHwERIiwAVF9GdFgAZj47MwUfPHVHSFQmDVNZV0E1FigaFRwsBwECR14BEx4RExsZHgAGGQwJExYQQlxCEWpQMipHRXhcVU5SVhUCB29yXjVUVEF0VFJCXFASA24RDQ5YQ1xFdVJWT1JSAR0QYzwTEBcHHSEMEA82EEJFR0BySEs5LlZhRzIfAQFMeFxVPycbGiwaKQAcVF9UDxNrZzMdHBgRBjRHXlQnNgEdEGMiHREPR05vDRACFV4MHlBBfQIbWAoMNAkFFBZKSl4IAWRAX0BHWG8oBQ4oDU1VcVwlHB0EHFZ3RyYkR0gBckdBIhcHAjEdIAAXAgQJUxMIEWFHUEddQ39cXEZHGQ%3D%3D&from_cache=False&title=P%C3%A2nico%204%20-%20filme%20completo%20dublado&rm=sn-oxunxg8pjvn-bg067s,sn-bg06e7s&req_id=912f9712d4dfa3ee&redirect_counter=2&cms_redirect=yes&ipbypass=yes&mh=P4&mip=179.54.76.93&mm=29&mn=sn-uphcg51pa-bg0s&ms=rdu&mt=1591872936&mv=m&mvi=2&pl=20&usequic=no&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl,usequic&lsig=AG3C_xAwRQIgAJNnR_MxDQSF2lQuvObS0GMrmqrhaLq2ZLG_4RpR2wQCIQD6nIsBaQszw5Lr3LJ-mMt63B7q6xX2nzDjNpOSKU4UMA%3D%3D&ir=1&rr=12" class="btn btn-primary">Assistir</a>
+                        </p>
+                        <a href="https://pt.wikipedia.org/wiki/Game_of_Thrones" class="btn btn-primary">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                  </div>
-                </li>
-                <li class="media my-4">
-                  <img src="images/capas/sexta_feira_13.jpg" class="mr-3" alt="...">
-                  <div class="media-body">
-                    <h5 class="mt-0 mb-1">Assistir Sexta Feira 13 online</h5>
-                    <p>A história do homicído em Crystal Lake não impede que os instrutores montem um acampamento de verão no bosque. Moradores supersticiosos advertem sobre o ocorrido, mas os jovens Jack, Alice, Bill, Marcie e Ned, prestam pouca atenção aos mais velhos e acabam sendo perseguidos por um assassino brutal. A medida em que são esquartejados, baleados e esfaqueados, os instrutores lutam para manterem-se vivos contra um adversário implacável.<br><br>
-                    Data de lançamento: 1 de dezembro de 1980 (Brasil)<br></p>
+        <div class="card mb-5">
+            <div class="row">
+                <div class="col-sm">
+                    <img src="img/One-Piece-Games.jpg" alt="One Piece" class="article-images">
+                </div>
+                <div class="col-sm">
+                    <div class="container-fluid p-3">
+                        <h2 class="text-center">One Piece</h2>
+                        <p>One Piece é uma série de mangá escrita e ilustrada por Eiichiro Oda. Os capítulos têm sido serializados na revista Weekly Shōnen Jump desde 22 de julho de 1997, com os capítulos compilados e publicados em 96 volumes tankōbon pela editora Shueisha até abril de 2020. One Piece conta as aventuras de Monkey D. Luffy, um jovem cujo corpo ganhou as propriedades de borracha após ter comido uma fruta do diabo acidentalmente. Com sua tripulação, os Piratas do Chapéu de Palha, Luffy explora a Grand Line em busca do tesouro mais procurado do mundo, o "One Piece", a fim de se tornar o próximo Rei dos Piratas.</p>
+                        <a href="https://pt.wikipedia.org/wiki/One_Piece" class="btn btn-primary">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card mb-5">
+            <div class="row">
+                <div class="col-sm">
+                    <img src="img/dr_house.jpg" alt="Doctor House" class="article-images">
+                </div>
+                <div class="col-sm">
+                    <div class="container-fluid p-3">
+                        <h2 class="text-center">HOUSE</h2>
+                        <p>House, M.D.[1] ou simplesmente House (no Brasil, Dr. House)[2] é uma série médica norte-americana criada por David Shore e exibida originalmente nos Estados Unidos pela Fox de 16 de novembro de 2004 a 21 de maio de 2012. Seu personagem principal é o Dr. Gregory House, interpretado pelo ator inglês Hugh Laurie. A série passa-se num hospital universitário fictício chamado Princeton-Plainsboro Teaching Hospital, na cidade de Princeton no estado de Nova Jersey, nos Estados Unidos.</p>
+                        <a href="https://globoplay.globo.com/house/t/G8gLCwkkLr/?gclid=Cj0KCQjwrIf3BRD1ARIsAMuugNvdzzRNSXVWaAFNKYuAbwlG74qmdcuQ1A3ME2ohBp-FNR8gerOsKdEaAruJEALw_wcB" class="btn btn-primary">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                    <a href="https://r5---sn-bg07dnzl.googlevideo.com/videoplayback?expire=1591893297&ei=0QjiXtzsIMXo4-EPzfSi8AY&ip=117.212.194.114&id=o-AAYINltQT7hMNZcZJIvYO7RNiYn-btMVIj1Oevf_PvzW&itag=18&source=youtube&requiressl=yes&vprv=1&mime=video%2Fmp4&gir=yes&clen=302155991&ratebypass=yes&dur=5137.252&lmt=1589676721214636&fvip=5&c=WEB&txp=5316222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRQIgIjow9ARtxe1LycD3QtpZ4eYezBxsYeduB9gNrhuS4nQCIQDeVRom9hg8wIS124wYLevlyEIaDW9CUK5uBUauOXLRuQ%3D%3D&video_id=pKz1RKsqVgs&title=FILME+TERROR+COMPLETO+E+DUBLADO+%28ESPECIAL+SEXTA-FEIRA+13+PARTE+1%29+%40oficialclubedoterror&rm=sn-cnoa-cvhe7e&req_id=9d9ba95285dfa3ee&redirect_counter=2&cm2rm=sn-cvhsl76&cms_redirect=yes&mh=bC&mip=179.54.76.93&mm=34&mn=sn-bg07dnzl&ms=ltu&mt=1591872567&mv=m&mvi=4&pl=20&usequic=no&lsparams=mh,mip,mm,mn,ms,mv,mvi,pl,usequic&lsig=AG3C_xAwRQIgbWXELBbIRjuJBg5WVpC8ChESCVpH1z6sSa--CsvKNqwCIQCQzORYDarSH3-P8GV3JjgphdRuyE8F22zNWohm4iVo2A%3D%3D" class="btn btn-primary">Assistir</a>
+    </div>
 
-                </li>
+    <footer class="container-fluid bg-dark text-light p-5 mt-5">
+        <div class="d-flex bd-highlight">
+            <div class="mr-auto bd-highlight"><p>This template was created by Arbyte!</p></div>
+            <div class=" bd-highlight"><a href="https://www.arbyte.com.br/"><img src="img/logo-footer.png" alt="Logo Arbyte" class="brand-icon ml-auto"></a></div>
+        </div>
+    </footer>
 
-                
-                  </div>
-
-                  
-                </body> 
-</html
+        
+    
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
